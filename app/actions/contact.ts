@@ -1,4 +1,4 @@
-"use client";
+"use server";
 // "use server" = this code runs ONLY on the server (never in the browser).
 // That keeps your secret API key safe. The form calls this function directly.
 
