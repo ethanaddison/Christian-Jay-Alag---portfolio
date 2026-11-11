@@ -1,0 +1,9 @@
+---
+alwaysApply: true
+---
+Next.js (App Router, TypeScript, Tailwind v4) portfolio for Christian Jay Alag.
+- Content lives in data/content.ts. Edit there, not inside sections.
+- Server Components by default. "use client" only for Nav and Contact (and future interactive components).
+- Heavy WebGL effects (React Bits Aurora, Particles, etc.) must use next/dynamic with ssr: false.
+- Palette: bg #0E0B14, surface #181322, violet #8B5CF6, orange #FF7A45. Fonts via next/font.
+- Add beginner-friendly comments: the developer is learning Next.js.
