@@ -1,5 +1,6 @@
 import { Button } from "@/components/Button";
 import { HeroBackground } from "@/components/HeroBackground";
+import GradientText from "@/components/GradientText";
 import Image from "next/image";
 
 // Server Component (no "use client"): it only renders static HTML.
@@ -17,7 +18,13 @@ export function Hero() {
           <h1 id="hero-title">
             Hey, I’m
             <br />
-            <span>Christian Jay Alag</span>
+            <GradientText
+              colors={["#8b5cf6", "#ff7a45", "#8b5cf6"]}
+              animationSpeed={4}
+              showBorder={false}
+            >
+              Christian Jay Alag
+            </GradientText>
           </h1>
           <div className="role-line">
             <strong>WordPress Developer</strong>

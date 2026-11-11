@@ -192,7 +192,6 @@
   font-weight: 700;
   margin: 0 0 28px;
 }
-.hero h1 span,
 .gradient-text {
   background: linear-gradient(105deg, #a983ff 5%, var(--violet) 40%, var(--orange) 90%);
   -webkit-background-clip: text;
@@ -1757,3 +1756,5 @@ footer {
   color: #ff8f8f;
   font-size: 14px;
 }
+
+
